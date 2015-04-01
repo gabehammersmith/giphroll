@@ -18,12 +18,12 @@ post '/v1' do
   			fallback: "#{params[:text]}",
   			image_url: ENV['gif'],
   			title: "#{params[:text]}",
-        title_link: ENV['gif'],
+        		title_link: ENV['gif'],
 			}
 		notifier.ping "/giphy #{params[:text]}", icon_url: ENV['ico'], attachments: [rickpic]
 		status 200
-  	body '' 
-  else
-  	status 403
-  end
+  		body '' 
+  	else
+  		status 403
+  	end
 end
