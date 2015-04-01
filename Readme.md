@@ -1,7 +1,5 @@
 #Giphroll
 
-====
-
 Giphroll is a replacement for the Giphy Slack integration. Giphroll always returns the same gif. The default is a gif of Rick Astley, hence the name.
 
 ##Setup
@@ -13,7 +11,6 @@ Giphroll is a replacement for the Giphy Slack integration. Giphroll always retur
 
 ##Known Issues
 The official Giphy integration posts to Slack with the ```as_user``` argument. Giphroll posts as a bot. I may resolve this on a rainy day.
-
 
 ##Why?
 I wanted to learn more about Docker, CoreOS, and clusters. This was arguably more interesting than containerizing and deploying "hello world". It also had the benefit of serving as an April Fool's gag for my coworkers at @revmsg.
