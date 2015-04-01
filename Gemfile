@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'thin'
+gem 'dotenv'
+gem 'sinatra'
+gem 'slack-notifier'
